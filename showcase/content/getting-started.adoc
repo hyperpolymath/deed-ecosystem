@@ -1,11 +1,10 @@
 == Get Started
 
-A step-by-step guide to creating your first A2ML manifest, validating
-it, and integrating it into your project.
+A step-by-step guide to creating your first A2ML manifest and
+integrating it into your project.
 
 === Prerequisites
 
-* https://pandoc.org/installing.html[Pandoc] 3.0 or later
 * Git (for cloning the tooling)
 * A text editor (VS Code recommended for syntax highlighting)
 
@@ -70,29 +69,6 @@ No AI agents currently operate on this repository.
 [1] A2ML Specification, https://a2ml.hyperpolymath.dev/specification.html
 @end
 ....
-
-=== Validate with Pandoc
-
-Check that your manifest parses correctly by converting it to HTML:
-
-[source,bash]
-----
-pandoc -f path/to/a2ml-reader.lua 0-AI-MANIFEST.a2ml -o manifest.html
-----
-
-If the file is well-formed, Pandoc will produce clean HTML output. Open
-`+manifest.html+` in a browser to verify the structure.
-
-For deeper validation using the A2ML filter (checks attestation
-structure):
-
-[source,bash]
-----
-pandoc -f path/to/a2ml-reader.lua \
-       --lua-filter path/to/a2ml-filter.lua \
-       0-AI-MANIFEST.a2ml \
-       -o validated.html
-----
 
 === Add Machine-Readable Metadata
 
