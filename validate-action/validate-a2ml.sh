@@ -317,7 +317,7 @@ validate_a2ml() {
         fi
     done < "$file"
 
-    if [[ $attestation_line -gt 0 && "$attestation_has_content" == "false" ]]; then
+    if [[ $attestation_line -gt 0 && "$attestation_has_content" == "false" && "$is_manifest" == "false" ]]; then
         report_issue "warning" "$file" "$attestation_line" \
             "Attestation block found but missing proof/signature/hash fields"
     fi
