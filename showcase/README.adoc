@@ -1,7 +1,7 @@
 Showcase examples and templates for A2ML (AI Attestation Markup
 Language).
 
-https://securityscorecards.dev/viewer/?uri=github.com/hyperpolymath/deed-ecosystem/tree/main/showcase[image:https://api.securityscorecards.dev/projects/github.com/hyperpolymath/deed-ecosystem/badge[OpenSSF
+https://securityscorecards.dev/viewer/?uri=github.com/hyperpolymath/deed-ecosystem[image:https://api.securityscorecards.dev/projects/github.com/hyperpolymath/deed-ecosystem/badge[OpenSSF
 Scorecard]]
 
 == About

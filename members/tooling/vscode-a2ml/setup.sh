@@ -199,7 +199,7 @@ main() {
     if [ ! -f "Justfile" ] && [ ! -f "justfile" ]; then
         warn "Not in a repo directory (no Justfile found)"
         info "Clone first: git clone https://github.com/hyperpolymath/deed-ecosystem.git"
-        info "Then: cd vscode-a2ml && ./setup.sh"
+        info "Then: cd deed-ecosystem/members/tooling/vscode-a2ml && ./setup.sh"
         exit 1
     fi
 
