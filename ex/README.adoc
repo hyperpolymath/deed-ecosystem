@@ -1,4 +1,4 @@
-https://www.bestpractices.dev/en/projects/new?repo_url=https://github.com/hyperpolymath/a2ml_ex[image:https://img.shields.io/badge/OpenSSF-Best_Practices-green?logo=opensourcesecurity[OpenSSF
+https://www.bestpractices.dev/en/projects/new?repo_url=https://github.com/hyperpolymath/deed-ecosystem[image:https://img.shields.io/badge/OpenSSF-Best_Practices-green?logo=opensourcesecurity[OpenSSF
 Best Practices]]
 
 == Overview
@@ -30,7 +30,7 @@ Add to your `+mix.exs+`:
 [source,elixir]
 ----
 defp deps do
-  [{:a2ml_ex, git: "https://github.com/hyperpolymath/a2ml_ex.git"}]
+  [{:a2ml_ex, git: "https://github.com/hyperpolymath/deed-ecosystem.git", sparse: "ex"}]
 end
 ----
 
@@ -138,17 +138,17 @@ config :a2ml_ex,
 
 == Related Libraries
 
-* https://github.com/hyperpolymath/a2ml-deno[a2ml-deno] —
+* https://github.com/hyperpolymath/deed-ecosystem/tree/main/deno[deno/] —
 Deno/AffineScript implementation
-* https://github.com/hyperpolymath/a2ml-rs[a2ml-rs] — Rust
+* https://github.com/hyperpolymath/deed-ecosystem/tree/main/rs[rs/] — Rust
 implementation
-* https://github.com/hyperpolymath/a2ml-haskell[a2ml-haskell] — Haskell
+* https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell[haskell/] — Haskell
 implementation
-* https://github.com/hyperpolymath/a2ml_gleam[a2ml_gleam] — Gleam
+* https://github.com/hyperpolymath/deed-ecosystem/tree/main/gleam[gleam/] — Gleam
 implementation
 * https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml] —
 Tree-sitter grammar
-* https://github.com/hyperpolymath/vscode-a2ml[vscode-a2ml] — VS Code
+* https://github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml[members/tooling/vscode-a2ml/] — VS Code
 extension
 
 == Trust Levels

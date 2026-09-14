@@ -43,8 +43,8 @@ Alternatively, clone and install manually:
 
 [source,bash]
 ----
-git clone https://github.com/hyperpolymath/vscode-a2ml.git
-cd vscode-a2ml
+git clone https://github.com/hyperpolymath/deed-ecosystem.git
+cd deed-ecosystem/members/tooling/vscode-a2ml
 code --install-extension .
 ----
 
@@ -208,6 +208,6 @@ directives and fields
 * Explore link:integrations.html[Integrations] for editor and CI tooling
 * Check out the source repositories:
 ** https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml]
-** https://github.com/hyperpolymath/vscode-a2ml[vscode-a2ml]
+** https://github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml[members/tooling/vscode-a2ml/]
 ** https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml]
 ** https://github.com/hyperpolymath/pandoc-k9[pandoc-k9]

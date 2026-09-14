@@ -13,8 +13,8 @@ Clone, build, test, contribute.
 
 [source,bash]
 ----
-git clone https://github.com/hyperpolymath/a2ml-haskell
-cd a2ml-haskell
+git clone https://github.com/hyperpolymath/deed-ecosystem
+cd deed-ecosystem/haskell
 just doctor    # verify toolchain
 just heal      # auto-install missing tools
 ----

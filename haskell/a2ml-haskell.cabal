@@ -27,14 +27,15 @@ maintainer:          j.d.a.jewell@open.ac.uk
 copyright:           Copyright (c) 2026 Jonathan D.A. Jewell (hyperpolymath)
 category:            Text, Data
 build-type:          Simple
-homepage:            https://github.com/hyperpolymath/a2ml-haskell
-bug-reports:         https://github.com/hyperpolymath/a2ml-haskell/issues
+homepage:            https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell
+bug-reports:         https://github.com/hyperpolymath/deed-ecosystem/issues
 extra-doc-files:     CHANGELOG.md
 extra-source-files:  README.adoc
 
 source-repository head
     type:     git
-    location: https://github.com/hyperpolymath/a2ml-haskell.git
+    location: https://github.com/hyperpolymath/deed-ecosystem.git
+    subdir:   haskell
 
 library
     exposed-modules:

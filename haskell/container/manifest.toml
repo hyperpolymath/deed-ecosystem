@@ -16,11 +16,11 @@ cerro-torre .ctp bundle with Ed25519 signing and full provenance
 tracking.
 """
 license = "MPL-2.0"
-homepage = "https://github.com/hyperpolymath/a2ml-haskell"
+homepage = "https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell"
 maintainer = "Jonathan D.A. Jewell <{{EMAIL}}>"
 
 [provenance]
-upstream = "https://github.com/hyperpolymath/a2ml-haskell"
+upstream = "https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell"
 import_date = 2026-07-08T00:00:00Z
 
 [dependencies]

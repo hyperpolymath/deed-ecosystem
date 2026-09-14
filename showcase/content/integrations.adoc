@@ -51,7 +51,7 @@ configuration for bracket/comment auto-pairing
 VSIX.
 
 *Repository:*
-https://github.com/hyperpolymath/vscode-a2ml[github.com/hyperpolymath/vscode-a2ml]
+https://github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml[github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml]
 
 === Tree-sitter [.badge .badge-live]#Live#
 

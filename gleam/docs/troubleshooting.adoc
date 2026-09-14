@@ -53,5 +53,5 @@ just log-tail        # last N lines of logs
 
 * `docs/architecture.adoc` — internals.
 * `docs/decisions/` — historical record of why things are this shape.
-* `https://github.com/hyperpolymath/a2ml_gleam/issues?q=is%3Aissue+<your symptom>` — has anyone hit this before?
+* `https://github.com/hyperpolymath/deed-ecosystem/issues?q=is%3Aissue+<your symptom>` — has anyone hit this before?
 * `https://github.com/hyperpolymath/standards/issues` — for estate-wide problems.

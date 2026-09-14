@@ -50,7 +50,7 @@ cabal test
 
 == Related
 
-* https://github.com/hyperpolymath/a2ml-rs[a2ml-rs] — Rust
+* https://github.com/hyperpolymath/deed-ecosystem/tree/main/rs[rs/] — Rust
 implementation
 * https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml] — Pandoc Lua
 reader/writer

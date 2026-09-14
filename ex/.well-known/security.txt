@@ -5,5 +5,5 @@
 Contact: mailto:j.d.a.jewell@open.ac.uk
 Expires: 2027-12-31T23:59:59.000Z
 Preferred-Languages: en
-Canonical: https://github.com/hyperpolymath/a2ml_ex/.well-known/security.txt
-Policy: https://github.com/hyperpolymath/a2ml_ex/blob/main/SECURITY.md
+Canonical: https://github.com/hyperpolymath/deed-ecosystem/blob/main/ex/.well-known/security.txt
+Policy: https://github.com/hyperpolymath/deed-ecosystem/blob/main/ex/SECURITY.adoc

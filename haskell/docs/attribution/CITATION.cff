@@ -7,8 +7,8 @@ authors:
 title: "a2ml-haskell"
 version: 0.1.0
 date-released: 2026-07-08
-url: "https://github.com/hyperpolymath/a2ml-haskell"
-repository-code: "https://github.com/hyperpolymath/a2ml-haskell"
+url: "https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell"
+repository-code: "https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell"
 license: MPL-2.0
 keywords:
   - "rsr"

@@ -13,6 +13,6 @@
   (build-system gnu-build-system)
   (synopsis "a2ml-showcase")
   (description "a2ml-showcase — part of the hyperpolymath ecosystem.")
-  (home-page "https://github.com/hyperpolymath/a2ml-showcase")
+  (home-page "https://github.com/hyperpolymath/deed-ecosystem/tree/main/showcase")
   (license ((@@ (guix licenses) license) "MPL-2.0"
              "https://github.com/hyperpolymath/palimpsest-license")))

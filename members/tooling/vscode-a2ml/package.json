@@ -11,12 +11,13 @@
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperpolymath/vscode-a2ml"
+    "url": "https://github.com/hyperpolymath/deed-ecosystem.git",
+    "directory": "members/tooling/vscode-a2ml"
   },
   "bugs": {
-    "url": "https://github.com/hyperpolymath/vscode-a2ml/issues"
+    "url": "https://github.com/hyperpolymath/deed-ecosystem/issues"
   },
-  "homepage": "https://github.com/hyperpolymath/vscode-a2ml#readme",
+  "homepage": "https://github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml#readme",
   "engines": {
     "vscode": "^1.75.0"
   },

@@ -67,7 +67,7 @@ A2ML is not a paper specification. It ships with real, working tools:
 https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml] — convert A2ML
 to HTML, PDF, Markdown, and 40+ other formats
 * *https://code.visualstudio.com[VS Code]* syntax highlighting via
-https://github.com/hyperpolymath/vscode-a2ml[vscode-a2ml]
+https://github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml[members/tooling/vscode-a2ml/]
 * *https://tree-sitter.github.io[Tree-sitter]* grammar via
 https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml] —
 works in Neovim, Helix, Zed, and GitHub

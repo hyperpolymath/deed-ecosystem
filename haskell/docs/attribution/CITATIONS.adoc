@@ -9,26 +9,26 @@
   author = {Jewell, Jonathan},
   title = {a2ml-haskell},
   year = {2026},
-  url = {https://github.com/hyperpolymath/a2ml-haskell},
+  url = {https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell},
   license = {MPL-2.0}
 }
 ----
 
 == Harvard Style
 
-Jewell, J. (2026) _a2ml-haskell_ [Computer software]. Available at: https://github.com/hyperpolymath/a2ml-haskell
+Jewell, J. (2026) _a2ml-haskell_ [Computer software]. Available at: https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell
 
 == OSCOLA
 
-Jonathan D.A. Jewell, 'a2ml-haskell' (2026) <https://github.com/hyperpolymath/a2ml-haskell>
+Jonathan D.A. Jewell, 'a2ml-haskell' (2026) <https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell>
 
 == MLA
 
-Jewell, Jonathan "a2ml-haskell." 2026, github.com/hyperpolymath/a2ml-haskell.
+Jewell, Jonathan "a2ml-haskell." 2026, github.com/hyperpolymath/deed-ecosystem/tree/main/haskell.
 
 == APA 7
 
-Jewell, J. (2026). _a2ml-haskell_ [Computer software]. GitHub. https://github.com/hyperpolymath/a2ml-haskell
+Jewell, J. (2026). _a2ml-haskell_ [Computer software]. GitHub. https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell
 
 == See Also
 

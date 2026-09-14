@@ -37,8 +37,8 @@ Before you begin, ensure you have:
 [source,bash]
 ----
 # Clone and set up
-git clone https://github.com/hyperpolymath/vscode-a2ml.git
-cd vscode-a2ml
+git clone https://github.com/hyperpolymath/deed-ecosystem.git
+cd deed-ecosystem/members/tooling/vscode-a2ml
 just setup
 ----
 
@@ -102,7 +102,7 @@ just heal
 * **In-app**: `just run --help`
 * **Guided tour**: `just tour`
 * **Report a problem**: `just help-me` (pre-fills diagnostic context)
-* **Wiki**: https://github.com/hyperpolymath/vscode-a2ml/wiki
+* **Wiki**: https://github.com/hyperpolymath/deed-ecosystem/wiki
 
 == Uninstall
 

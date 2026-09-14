@@ -18,8 +18,8 @@ distribution on your platform.
 
 [source,bash]
 ----
-git clone https://github.com/hyperpolymath/vscode-a2ml.git
-cd vscode-a2ml
+git clone https://github.com/hyperpolymath/deed-ecosystem.git
+cd deed-ecosystem/members/tooling/vscode-a2ml
 just build-release
 ----
 
@@ -125,5 +125,5 @@ Each instance has isolated config, data, and logs.
 
 == Reporting Issues
 
-* Upstream: https://github.com/hyperpolymath/vscode-a2ml/issues
+* Upstream: https://github.com/hyperpolymath/deed-ecosystem/issues
 * With diagnostic: `just help-me` (pre-fills context)

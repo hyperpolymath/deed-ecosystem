@@ -6,6 +6,6 @@ Contact: mailto:security@example.com
 Expires: 2026-12-31T23:59:59.000Z
 Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/0000000000000000000000000000000000000000
 Preferred-Languages: en
-Canonical: https://github.com/hyperpolymath/a2ml-haskell/.well-known/security.txt
-Policy: https://github.com/hyperpolymath/a2ml-haskell/blob/main/SECURITY.md
+Canonical: https://github.com/hyperpolymath/deed-ecosystem/blob/main/haskell/.well-known/security.txt
+Policy: https://github.com/hyperpolymath/deed-ecosystem/blob/main/haskell/SECURITY.adoc
 Hiring: https://https://github.com/hyperpolymath/careers

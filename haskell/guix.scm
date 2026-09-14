@@ -63,7 +63,7 @@
    (list
     ;; TODO: Add runtime dependencies
     ))
-  (home-page "https://github.com/hyperpolymath/a2ml-haskell")
+  (home-page "https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell")
   (synopsis "A hyperpolymath project")
   (description "RSR-compliant project. See README.adoc for details.")
   (license (list

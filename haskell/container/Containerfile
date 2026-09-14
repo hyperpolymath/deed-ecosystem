@@ -71,8 +71,8 @@ FROM cgr.dev/chainguard/wolfi-base:latest
 # OCI image labels (compatible with cerro-torre .ctp bundle metadata)
 LABEL org.opencontainers.image.title="a2ml-haskell" \
       org.opencontainers.image.description="a2ml-haskell" \
-      org.opencontainers.image.url="https://github.com/hyperpolymath/a2ml-haskell" \
-      org.opencontainers.image.source="https://github.com/hyperpolymath/a2ml-haskell" \
+      org.opencontainers.image.url="https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell" \
+      org.opencontainers.image.source="https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell" \
       org.opencontainers.image.vendor="hyperpolymath" \
       org.opencontainers.image.licenses="MPL-2.0" \
       org.opencontainers.image.authors="Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>" \
