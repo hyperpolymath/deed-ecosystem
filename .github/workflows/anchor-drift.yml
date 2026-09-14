@@ -87,7 +87,7 @@ jobs:
           # default credential persistence in .git/config is exposure with
           # no upside (CWE-522).
           persist-credentials: false
-      - uses: hyperpolymath/a2ml-ecosystem/validate-action@aa4b836bd969df2bc58128cb8e3d20bbc88d5e79
+      - uses: ./validate-action
         with:
           path: "."
           strict: "true"
@@ -112,7 +112,7 @@ jobs:
           # default credential persistence in .git/config is exposure with
           # no upside (CWE-522).
           persist-credentials: false
-      - uses: hyperpolymath/a2ml-ecosystem/validate-action@aa4b836bd969df2bc58128cb8e3d20bbc88d5e79
+      - uses: ./validate-action
         with:
           path: "conformance/valid"
           strict: "true"
@@ -129,7 +129,7 @@ jobs:
           persist-credentials: false
       - id: negative
         continue-on-error: true
-        uses: hyperpolymath/a2ml-ecosystem/validate-action@aa4b836bd969df2bc58128cb8e3d20bbc88d5e79
+        uses: ./validate-action
         with:
           path: "conformance/invalid"
           strict: "true"
