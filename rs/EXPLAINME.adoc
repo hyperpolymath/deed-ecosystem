@@ -113,13 +113,13 @@ MPL-2.0 where the platform permits it.
 |===
 | Technology | Also Used In
 
-| **A2ML format** | https://github.com/hyperpolymath/a2ml-haskell[a2ml-haskell] (Haskell binding), https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml] (Lua reader), https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml] (grammar)
+| **A2ML format** | https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell[haskell/] (Haskell binding), https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml] (Lua reader), https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml] (grammar)
 
 | **Rust + thiserror** | https://github.com/hyperpolymath/panic-attacker[panic-attacker], https://github.com/hyperpolymath/patch-bridge[patch-bridge], https://github.com/hyperpolymath/protocol-squisher[protocol-squisher]
 
-| **Criterion benchmarks** | https://github.com/hyperpolymath/patch-bridge[patch-bridge] (bridge_bench.rs), https://github.com/hyperpolymath/a2ml-haskell[a2ml-haskell] (a2ml-bench)
+| **Criterion benchmarks** | https://github.com/hyperpolymath/patch-bridge[patch-bridge] (bridge_bench.rs), https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell[haskell/] (a2ml-bench)
 
-| **SPDX MPL-2.0 fallback** | https://github.com/hyperpolymath/a2ml-haskell[a2ml-haskell] (Hackage policy)
+| **SPDX MPL-2.0 fallback** | https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell[haskell/] (Hackage policy)
 
 | **0-AI-MANIFEST.a2ml gatekeeper** | All RSR repositories — this crate is itself an implementation of the format it parses
 |===

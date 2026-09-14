@@ -1,4 +1,4 @@
-https://securityscorecards.dev/viewer/?uri=github.com/hyperpolymath/a2ml_gleam[image:https://api.securityscorecards.dev/projects/github.com/hyperpolymath/a2ml_gleam/badge[OpenSSF
+https://securityscorecards.dev/viewer/?uri=github.com/hyperpolymath/deed-ecosystem/tree/main/gleam[image:https://api.securityscorecards.dev/projects/github.com/hyperpolymath/deed-ecosystem/badge[OpenSSF
 Scorecard]]
 
 A2ML (AI Attestation Markup Language) parser and renderer for Gleam.

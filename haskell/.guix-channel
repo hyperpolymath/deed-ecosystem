@@ -7,14 +7,14 @@
 ;;
 ;;   (channel
 ;;     (name 'a2ml-haskell)
-;;     (url "https://github.com/hyperpolymath/a2ml-haskell")
+;;     (url "https://github.com/hyperpolymath/deed-ecosystem")
 ;;     (branch "main"))
 ;;
 ;; Then: guix pull
 
 (channel
   (version 0)
-  (url "https://github.com/hyperpolymath/a2ml-haskell")
+  (url "https://github.com/hyperpolymath/deed-ecosystem")
   (dependencies
    (channel
      (name 'guix)

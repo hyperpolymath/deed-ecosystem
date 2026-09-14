@@ -173,7 +173,7 @@ Records the origin and lineage of the document.
 created-by: Jonathan D.A. Jewell
 created: 2026-01-15
 last-modified: 2026-03-16
-source: https://github.com/hyperpolymath/a2ml-spec
+source: https://github.com/hyperpolymath/standards/tree/main/deed/spec
 version: 0.3.0
 @end
 ....

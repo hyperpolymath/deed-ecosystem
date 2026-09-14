@@ -9,7 +9,7 @@ Encryption: openpgp4fpr:4A03639C1EB1F86C7F0C97A91835A14A2867091E
 Expires: 2027-06-21T00:00:00Z
 Preferred-Languages: en
 Canonical: https://a2ml.net/.well-known/security.txt
-Policy: https://github.com/hyperpolymath/a2ml-showcase/blob/main/SECURITY.md
+Policy: https://github.com/hyperpolymath/deed-ecosystem/blob/main/showcase/SECURITY.adoc
 -----BEGIN PGP SIGNATURE-----
 
 iQIzBAEBCgAdFiEEljlFF1RJblHWtTfK0RkBfr9pWrEFAmo5socACgkQ0RkBfr9p

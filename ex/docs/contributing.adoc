@@ -22,8 +22,8 @@ One-shot setup:
 
 [source,bash]
 ----
-git clone git@github.com:hyperpolymath/a2ml_ex.git
-cd a2ml_ex
+git clone git@github.com:hyperpolymath/deed-ecosystem.git
+cd deed-ecosystem/ex
 just setup       # installs deps, sets up hooks
 just test        # runs the full test suite
 ----
@@ -85,6 +85,6 @@ When you make a non-obvious design decision, write it down:
 
 == Reporting issues
 
-* Bugs in `a2ml_ex`: file at `hyperpolymath/a2ml_ex/issues`.
+* Bugs in `a2ml_ex`: file at `hyperpolymath/deed-ecosystem/issues`.
 * Estate-wide concerns (policy, conventions, CI): file at
   `hyperpolymath/standards/issues`.

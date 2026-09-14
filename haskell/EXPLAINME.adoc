@@ -155,13 +155,13 @@ scaffolding for a future integration milestone.
 |===
 | Technology | Also Used In
 
-| **A2ML format** | https://github.com/hyperpolymath/a2ml-rs[a2ml-rs] (Rust binding), https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml] (Lua Pandoc reader), https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml] (grammar)
+| **A2ML format** | https://github.com/hyperpolymath/deed-ecosystem/tree/main/rs[rs/] (Rust binding), https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml] (Lua Pandoc reader), https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml] (grammar)
 
 | **Haskell / GHC + cabal** | https://github.com/hyperpolymath/nextgen-languages[nextgen-languages] (Scaffoldia CLI, AffineScript compiler), https://github.com/hyperpolymath/hypatia[hypatia] (rule modules)
 
 | **hspec + QuickCheck** | Other Haskell projects in the `nextgen-languages` monorepo
 
-| **SPDX MPL-2.0 fallback** | https://github.com/hyperpolymath/a2ml-rs[a2ml-rs] (crates.io policy)
+| **SPDX MPL-2.0 fallback** | https://github.com/hyperpolymath/deed-ecosystem/tree/main/rs[rs/] (crates.io policy)
 |===
 
 == File Map

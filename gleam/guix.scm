@@ -13,6 +13,6 @@
   (build-system gnu-build-system)
   (synopsis "a2ml_gleam")
   (description "a2ml_gleam — part of the hyperpolymath ecosystem.")
-  (home-page "https://github.com/hyperpolymath/a2ml_gleam")
+  (home-page "https://github.com/hyperpolymath/deed-ecosystem/tree/main/gleam")
   (license ((@@ (guix licenses) license) "MPL-2.0"
              "https://github.com/hyperpolymath/palimpsest-license")))

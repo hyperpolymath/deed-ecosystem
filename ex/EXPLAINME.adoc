@@ -30,9 +30,9 @@ The `A2ML.Types.TrustLevel` enum in `lib/a2ml/types.ex` defines a four-tier hier
 
 a2ml_ex is part of the A2ML ecosystem, which includes:
 
-* link:https://github.com/hyperpolymath/a2ml-deno[a2ml-deno] — Deno/AffineScript implementation (primary)
+* link:https://github.com/hyperpolymath/deed-ecosystem/tree/main/deno[deno/] — Deno/AffineScript implementation (primary)
 * link:https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml] — Tree-sitter grammar for syntax highlighting
-* link:https://github.com/hyperpolymath/a2ml-haskell[a2ml-haskell] — Haskell implementation
+* link:https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell[haskell/] — Haskell implementation
 * link:https://github.com/hyperpolymath/standards[standards] — A2ML spec (K9 service specification)
 
 The Elixir implementation enables A2ML parsing in BEAM-based systems (Elixir, Erlang). It follows the same type structure as the Deno version.

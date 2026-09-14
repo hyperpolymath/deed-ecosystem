@@ -5,7 +5,7 @@ defmodule A2ML.MixProject do
   use Mix.Project
 
   @version "0.1.0"
-  @source_url "https://github.com/hyperpolymath/a2ml_ex"
+  @source_url "https://github.com/hyperpolymath/deed-ecosystem/tree/main/ex"
 
   def project do
     [
@@ -36,7 +36,7 @@ defmodule A2ML.MixProject do
       licenses: ["MPL-2.0"],
       links: %{
         "GitHub" => @source_url,
-        "A2ML Specification" => "https://github.com/hyperpolymath/a2ml-showcase"
+        "A2ML Specification" => "https://github.com/hyperpolymath/deed-ecosystem/tree/main/showcase"
       }
     ]
   end

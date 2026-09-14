@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: a2ml-haskell
 Upstream-Contact: Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
-Source: https://github.com/hyperpolymath/a2ml-haskell
+Source: https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell
 
 # Default: all files are MPL-2.0
 Files: *

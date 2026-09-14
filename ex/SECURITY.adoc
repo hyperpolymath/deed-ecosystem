@@ -17,7 +17,7 @@ Instead, please report them via:
 [arabic]
 . *Email*: security@hyperpolymath.org (preferred)
 . *GitHub Security Advisories*:
-https://github.com/hyperpolymath/a2ml_ex/security/advisories/new[Create
+https://github.com/hyperpolymath/deed-ecosystem/security/advisories/new[Create
 a private advisory]
 
 ==== What to include
