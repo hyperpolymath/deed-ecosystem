@@ -33,7 +33,7 @@ preparation. Once merged, GitHub will:
 * Apply syntax highlighting using the tree-sitter grammar
 * Recognise `+application/vnd.a2ml+` as a registered media type
 
-=== K9 Validators [.badge .badge-live]#Live#
+=== K9 Validators [.badge .badge-pending]#Pending#
 
 https://github.com/hyperpolymath/pandoc-k9[pandoc-k9] provides
 contractile validation for A2ML files. K9 validators enforce structural
