@@ -101,8 +101,6 @@ implementation
 implementation
 * https://github.com/hyperpolymath/deed-ecosystem/tree/main/gleam[gleam/] — Gleam
 implementation
-* https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml] —
-Tree-sitter grammar
 * https://github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml[members/tooling/vscode-a2ml/] — VS Code
 extension
 

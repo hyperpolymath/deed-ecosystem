@@ -5,37 +5,6 @@ ecosystems. This is not a roadmap — these tools exist today.
 
 '''''
 
-=== Pandoc [.badge .badge-live]#Live#
-
-Full Pandoc integration via
-https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml]: custom
-reader, writer, Lua filter, and HTML template.
-
-Convert A2ML to any of Pandoc’s 40+ output formats (HTML, PDF, DOCX,
-LaTeX, Markdown, reStructuredText, EPUB, and more), or convert _from_
-any Pandoc input format into A2ML.
-
-[source,bash]
-----
-# Read A2ML, output HTML
-pandoc -f a2ml-reader.lua manifest.a2ml -o manifest.html
-
-# Read A2ML, output PDF
-pandoc -f a2ml-reader.lua manifest.a2ml -o manifest.pdf
-
-# Convert Markdown to A2ML
-pandoc README.md -t a2ml-writer.lua -o README.a2ml
-
-# Apply the A2ML filter for attestation validation
-pandoc -f a2ml-reader.lua --lua-filter a2ml-filter.lua manifest.a2ml -o report.html
-----
-
-*Install:* Clone the repo and add the Lua scripts to your Pandoc data
-directory, or reference them by path.
-
-*Repository:*
-https://github.com/hyperpolymath/pandoc-a2ml[github.com/hyperpolymath/pandoc-a2ml]
-
 === VS Code [.badge .badge-live]#Live#
 
 Syntax highlighting, bracket matching, and snippet support for `+.a2ml+`
@@ -52,23 +21,6 @@ VSIX.
 
 *Repository:*
 https://github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml[github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml]
-
-=== Tree-sitter [.badge .badge-live]#Live#
-
-A https://tree-sitter.github.io[tree-sitter] grammar for A2ML, enabling
-syntax highlighting and structural queries in any editor that supports
-tree-sitter.
-
-Works with: - *Neovim* (via nvim-treesitter) - *Helix* (built-in
-tree-sitter support) - *Zed* (built-in tree-sitter support) - *GitHub*
-(syntax highlighting in code views, via tree-sitter) - *Emacs* (via
-tree-sitter-langs)
-
-The grammar parses the full A2ML syntax including nested directive
-blocks, attestation fields, and inline formatting.
-
-*Repository:*
-https://github.com/hyperpolymath/tree-sitter-a2ml[github.com/hyperpolymath/tree-sitter-a2ml]
 
 === GitHub Linguist [.badge .badge-pending]#Pending#
 
@@ -97,17 +49,6 @@ validation.
 
 *Repository:*
 https://github.com/hyperpolymath/pandoc-k9[github.com/hyperpolymath/pandoc-k9]
-
-=== LuaRocks [.badge .badge-live]#Live#
-
-The A2ML Pandoc components are available as a Lua library via
-https://luarocks.org[LuaRocks], making it straightforward to integrate
-A2ML parsing into any Lua-based toolchain.
-
-[source,bash]
-----
-luarocks install pandoc-a2ml
-----
 
 === Hypatia CI/CD Scanner [.badge .badge-live]#Live#
 
