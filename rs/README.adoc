@@ -57,8 +57,6 @@ Signature verification belongs in the Groove protocol stack.
 
 == Related
 
-* https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml] — Pandoc
-reader/writer for A2ML
 * https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell[haskell/] — Haskell
 implementation
 

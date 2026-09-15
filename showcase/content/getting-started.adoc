@@ -1,33 +1,14 @@
 == Get Started
 
-A step-by-step guide to creating your first A2ML manifest, validating
-it, and integrating it into your project.
+A step-by-step guide to creating your first A2ML manifest and
+integrating it into your project.
 
 === Prerequisites
 
-* https://pandoc.org/installing.html[Pandoc] 3.0 or later
 * Git (for cloning the tooling)
 * A text editor (VS Code recommended for syntax highlighting)
 
 '''''
-
-=== Install pandoc-a2ml
-
-Clone the pandoc-a2ml repository and note the path to the Lua scripts.
-No compilation needed — the reader, writer, and filter are pure Lua.
-
-[source,bash]
-----
-git clone https://github.com/hyperpolymath/pandoc-a2ml.git
-cd pandoc-a2ml
-----
-
-The key files are: - `+a2ml-reader.lua+` — reads `+.a2ml+` files into
-Pandoc’s AST - `+a2ml-writer.lua+` — writes Pandoc AST as `+.a2ml+`
-output - `+a2ml-filter.lua+` — Lua filter for attestation processing
-
-You can either add these to your Pandoc data directory
-(`+~/.local/share/pandoc/+`) or reference them by path.
 
 === Install the VS Code Extension
 
@@ -88,29 +69,6 @@ No AI agents currently operate on this repository.
 [1] A2ML Specification, https://a2ml.hyperpolymath.dev/specification.html
 @end
 ....
-
-=== Validate with Pandoc
-
-Check that your manifest parses correctly by converting it to HTML:
-
-[source,bash]
-----
-pandoc -f path/to/a2ml-reader.lua 0-AI-MANIFEST.a2ml -o manifest.html
-----
-
-If the file is well-formed, Pandoc will produce clean HTML output. Open
-`+manifest.html+` in a browser to verify the structure.
-
-For deeper validation using the A2ML filter (checks attestation
-structure):
-
-[source,bash]
-----
-pandoc -f path/to/a2ml-reader.lua \
-       --lua-filter path/to/a2ml-filter.lua \
-       0-AI-MANIFEST.a2ml \
-       -o validated.html
-----
 
 === Add Machine-Readable Metadata
 
@@ -207,7 +165,5 @@ directives and fields
 * Browse link:examples.html[Examples] for real-world patterns
 * Explore link:integrations.html[Integrations] for editor and CI tooling
 * Check out the source repositories:
-** https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml]
 ** https://github.com/hyperpolymath/deed-ecosystem/tree/main/members/tooling/vscode-a2ml[members/tooling/vscode-a2ml/]
-** https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml]
 ** https://github.com/hyperpolymath/pandoc-k9[pandoc-k9]

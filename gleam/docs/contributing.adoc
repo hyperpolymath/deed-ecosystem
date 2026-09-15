@@ -85,6 +85,6 @@ When you make a non-obvious design decision, write it down:
 
 == Reporting issues
 
-* Bugs in `a2ml_gleam`: file at `hyperpolymath/deed-ecosystem/issues`.
+* Bugs in `a2ml_gleam`: file at https://github.com/hyperpolymath/deed-ecosystem/issues.
 * Estate-wide concerns (policy, conventions, CI): file at
-  `hyperpolymath/standards/issues`.
+  https://github.com/hyperpolymath/standards/issues.

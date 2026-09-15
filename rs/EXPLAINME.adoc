@@ -30,8 +30,7 @@ into a `Vec<Block>`. The renderer in `src/renderer.rs` serialises the same
 handle nested block structures beyond one level of block-quote recursion.
 Multi-line directives (as used in the Haskell variant with `@name: ... @end`
 blocks) are not yet supported; directives here are single-line `@name value`
-pairs only. No HTML or PDF output is built in — use `pandoc-a2ml` (the Lua
-reader in `hyperpolymath/pandoc-a2ml`) for format conversion.
+pairs only. No HTML or PDF output is built in.
 
 - Implementation: `src/parser.rs` (parse, parse_file), `src/renderer.rs` (render)
 - Core types: `src/types.rs` (Document, Block, Inline, Directive, Attestation, TrustLevel, Manifest)
@@ -113,7 +112,7 @@ MPL-2.0 where the platform permits it.
 |===
 | Technology | Also Used In
 
-| **A2ML format** | https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell[haskell/] (Haskell binding), https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml] (Lua reader), https://github.com/hyperpolymath/tree-sitter-a2ml[tree-sitter-a2ml] (grammar)
+| **A2ML format** | https://github.com/hyperpolymath/deed-ecosystem/tree/main/haskell[haskell/] (Haskell binding)
 
 | **Rust + thiserror** | https://github.com/hyperpolymath/panic-attacker[panic-attacker], https://github.com/hyperpolymath/patch-bridge[patch-bridge], https://github.com/hyperpolymath/protocol-squisher[protocol-squisher]
 

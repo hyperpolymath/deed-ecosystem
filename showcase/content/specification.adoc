@@ -4,8 +4,9 @@
 
 A2ML (Attested Markup Language) is a text-based document format that
 combines human-readable markup with machine-verifiable attestation
-blocks. This page describes the format as currently implemented in the
-https://github.com/hyperpolymath/pandoc-a2ml[pandoc-a2ml] toolchain.
+blocks. This page describes the format as currently implemented across
+the reference implementations in
+https://github.com/hyperpolymath/deed-ecosystem[deed-ecosystem].
 
 === File Format
 
@@ -258,23 +259,3 @@ Standard], A2ML files live in the `+.machine_readable/+` directory:
 
 The top-level `+0-AI-MANIFEST.a2ml+` serves as the entry point that all
 AI agents must read first.
-
-=== Pandoc Integration
-
-A2ML is a first-class Pandoc format. Convert between A2ML and any
-Pandoc-supported format:
-
-[source,bash]
-----
-# A2ML to HTML
-pandoc -f a2ml-reader.lua input.a2ml -o output.html
-
-# A2ML to PDF (via LaTeX)
-pandoc -f a2ml-reader.lua input.a2ml -o output.pdf
-
-# Markdown to A2ML
-pandoc input.md -t a2ml-writer.lua -o output.a2ml
-
-# A2ML to A2ML (normalise)
-pandoc -f a2ml-reader.lua input.a2ml -t a2ml-writer.lua -o normalised.a2ml
-----
