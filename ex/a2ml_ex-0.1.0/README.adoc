@@ -225,7 +225,7 @@ See link:LICENSE[LICENSE] for full license text.
 
 == Contributing
 
-See link:CONTRIBUTING.adoc[CONTRIBUTING.adoc] for contribution guidelines.
+See link:../../.github/CONTRIBUTING.md[../../.github/CONTRIBUTING.md] for contribution guidelines.
 
 == Roadmap
 

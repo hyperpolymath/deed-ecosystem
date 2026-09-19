@@ -35,7 +35,7 @@ These are hard requirements — CI and pre-commit hooks fail if any check fails.
 
 ### contributing
 - description: CONTRIBUTING guide must exist
-- run: test -f CONTRIBUTING.adoc || test -f .github/CONTRIBUTING.md
+- run: test -f ../../../../.github/CONTRIBUTING.md || test -f .github/CONTRIBUTING.md
 - severity: warning
 
 ### editorconfig
