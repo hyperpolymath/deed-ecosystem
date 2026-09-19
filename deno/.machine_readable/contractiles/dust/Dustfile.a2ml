@@ -69,7 +69,7 @@ These are maintenance tasks — not blocking, but should be addressed.
 
 ### no-duplicate-contributing
 - description: Only one CONTRIBUTING format
-- run: test -z "$(test -f CONTRIBUTING.md && test -f CONTRIBUTING.adoc && echo dup)"
+- run: test -z "$(test -f CONTRIBUTING.md && test -f ../../../../.github/CONTRIBUTING.md && echo dup)"
 - severity: warning
 
 ### no-duplicate-readme
