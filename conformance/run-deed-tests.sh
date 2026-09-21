@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: © 2026 Jonathan D.A. Jewell (hyperpolymath)
 # SPDX-License-Identifier: MPL-2.0
 #
-# Behavioural test for .deed support in validate-action/validate-a2ml.sh.
+# Behavioural test for .deed support in validate-action/validate-deed.sh.
 #
 # This exists because the gap it guards was invisible to every source-level
 # survey. The discovery glob matched only '*.a2ml', so .deed files were never
@@ -16,7 +16,7 @@
 set -uo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-VALIDATOR="${HERE}/../validate-action/validate-a2ml.sh"
+VALIDATOR="${HERE}/../validate-action/validate-deed.sh"
 FAILURES=0
 
 # Report a passing assertion using the test script's standard output format.

@@ -13,7 +13,7 @@ enforce A2ML compliance.
 a2ml-validate-action/
 ├── action.yml            # GitHub Action metadata and entry point
 ├── src/
-│   └── validate-a2ml.sh  # Validation script (delegates to shell logic)
+│   └── validate-deed.sh  # Validation script (delegates to shell logic)
 ├── examples/             # Example workflows using this action
 ├── docs/                 # Usage documentation
 └── container/            # Containerfile for CI
@@ -22,7 +22,7 @@ a2ml-validate-action/
 === Data Flow
 
 ....
-[GitHub workflow trigger] ──► [action.yml] ──► [validate-a2ml.sh]
+[GitHub workflow trigger] ──► [action.yml] ──► [validate-deed.sh]
                                                        │
                                             [scan repo for .a2ml files]
                                                        │

@@ -1,15 +1,17 @@
 # SPDX-License-Identifier: MPL-2.0
 # Copyright (c) 2026 Jonathan D.A. Jewell (hyperpolymath) <j.d.a.jewell@open.ac.uk>
 #
-# action.yml — Validate A2ML Manifests GitHub Action
-# Scans repository for .a2ml and .deed files and validates structure, required
-# fields, SPDX headers, and attestation blocks.
+# action.yml — Validate DEED Manifests GitHub Action
+# Scans the repository for .deed (DEED grammar) and legacy .a2ml manifests and
+# validates structure, required fields, SPDX headers, and attestation blocks.
+# a2ml is retired (owner ruling R-H3, standards #836/#837): DEED is the grammar.
 
-name: 'Validate A2ML Manifests'
+name: 'Validate DEED Manifests'
 description: >-
-  Scan and validate .a2ml and .deed manifest files in your repository.
-  Checks for required fields (agent-id / pedigree name / :canonical-name,
-  version / :schema-version), SPDX headers, and attestation block structure.
+  Scan and validate .deed (DEED grammar) and legacy .a2ml manifest files in
+  your repository. Checks for required fields (:schema-version, agent-id /
+  pedigree name / :canonical-name, version), SPDX headers, and attestation
+  block structure.
 author: 'Jonathan D.A. Jewell'
 
 branding:
@@ -51,7 +53,7 @@ inputs:
 
 outputs:
   files-scanned:
-    description: 'Number of .a2ml files scanned'
+    description: 'Number of .deed/.a2ml manifest files scanned'
     value: ${{ steps.validate.outputs.files_scanned }}
   errors:
     description: 'Number of validation errors found'
@@ -71,4 +73,4 @@ runs:
         INPUT_STRICT: ${{ inputs.strict }}
         INPUT_PATHS_IGNORE: ${{ inputs.paths-ignore }}
       run: |
-        "${GITHUB_ACTION_PATH}/validate-a2ml.sh"
+        "${GITHUB_ACTION_PATH}/validate-deed.sh"

@@ -42,10 +42,10 @@ upstream pins.
 [source,sh]
 ----
 # governance: whole repo, strict, ignoring fixtures and members
-INPUT_PATH=. INPUT_STRICT=true INPUT_PATHS_IGNORE=$'conformance/\nmembers/' ../a2ml/a2ml-validate-action/validate-a2ml.sh
+INPUT_PATH=. INPUT_STRICT=true INPUT_PATHS_IGNORE=$'conformance/\nmembers/' ../a2ml/a2ml-validate-action/validate-deed.sh
 # conformance positive (zero errors) and negative (every case errors)
-INPUT_PATH=conformance/valid INPUT_STRICT=true ../a2ml/a2ml-validate-action/validate-a2ml.sh
-INPUT_PATH=conformance/invalid INPUT_STRICT=true ../a2ml/a2ml-validate-action/validate-a2ml.sh
+INPUT_PATH=conformance/valid INPUT_STRICT=true ../a2ml/a2ml-validate-action/validate-deed.sh
+INPUT_PATH=conformance/invalid INPUT_STRICT=true ../a2ml/a2ml-validate-action/validate-deed.sh
 ----
 
 The invalid conformance command is expected to fail.
