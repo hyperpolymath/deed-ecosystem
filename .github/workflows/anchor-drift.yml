@@ -140,7 +140,7 @@ jobs:
           exit 1
 
   # Runs the validator from THIS ref, not the pinned published action, so a
-  # change to validate-a2ml.sh is exercised by the same commit that makes it.
+  # change to validate-deed.sh is exercised by the same commit that makes it.
   # Asserts on the discovery COUNT as well as the exit code: the defect this
   # guards (the scan glob matching only '*.a2ml') produced a green exit 0 by
   # opening no .deed files at all, so exit status alone cannot detect it.

@@ -49,7 +49,7 @@ missing-license case will self-pass.
 [source,sh]
 ----
 # positive: zero errors
-INPUT_PATH=conformance/valid   INPUT_STRICT=true  <validate-a2ml.sh>
+INPUT_PATH=conformance/valid   INPUT_STRICT=true  <validate-deed.sh>
 # negative: every case errors
-INPUT_PATH=conformance/invalid INPUT_STRICT=true  <validate-a2ml.sh>
+INPUT_PATH=conformance/invalid INPUT_STRICT=true  <validate-deed.sh>
 ----

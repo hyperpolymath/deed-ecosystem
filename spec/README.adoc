@@ -54,7 +54,7 @@ the format.
   frontmatter surface of `0-AI-MANIFEST.a2ml` (894 files, 100% conformant). Its
   disposition under DEED is an *open question* for the owner — it is
   deliberately not stamped.
-* The existing `.a2ml` validator (`validate-action/validate-a2ml.sh`) and the
+* The existing `.a2ml` validator (`validate-action/validate-deed.sh`) and the
   positive fixtures in `conformance/valid/` are historical v1 inputs, explicitly
   non-DEED. No migration is required to make that distinction accurate.
 
