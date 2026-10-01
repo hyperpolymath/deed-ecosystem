@@ -1,0 +1,79 @@
+// SPDX-License-Identifier: MPL-2.0
+= deed-read
+:toc: macro
+
+Rust reader for the estate's `.deed` format and its vocabularies.
+
+toc::[]
+
+== What it does
+
+[cols="1,3"]
+|===
+| Module | Purpose
+
+| `syntax`
+| Parses any deed against the normative grammar,
+`1-formats/deed/spec/abnf/deed.abnf` in `hyperpolymath/standards`. It rejects
+what that grammar rejects: tabs, `true`/`false` instead of `#t`/`#f`, a missing
+`:schema-version`, an unknown document head, unbalanced forms.
+
+| `updates`
+| Reads the `(updates …)` repo-deed clause: the per-repo switch for automated
+dependency updates. Normative text: `1-formats/deed/vocabulary/updates.adoc`;
+policy: `docs/DEPENDABOT-POLICY.adoc` (owner ruling D269).
+|===
+
+[source,rust]
+----
+use deed_read::updates;
+
+let policy = updates::from_path(std::path::Path::new("my-repo_chora.deed"))?;
+if !policy.enabled { /* arm nothing */ }
+----
+
+== Fails closed
+
+The `(updates …)` clause is how a repo turns automation *off*. A reader that
+skipped what it did not recognise would read the typo `:enabeld #f` as "on".
+So any of the following is an `UpdatesError`, and the caller must arm nothing
+for that repo and report the error:
+
+* an unknown or repeated field;
+* an unknown nested clause;
+* a wrongly typed value (no coercion: `"no"` is not `#f`);
+* a negative `:soak-days`;
+* a `(hold …)` without `:reason`;
+* an impossible `:until` date;
+* the clause outside a `repo-deed`, or appearing twice;
+* a deed that does not parse, or cannot be read.
+
+A *missing* deed, or one with no clause, is not an error: the defaults apply
+(enabled, majors on, no soak).
+
+== Provenance and the duplication window
+
+`src/syntax.rs` and `tests/deed_corpus.rs` are copied from
+`hyperpolymath/launch-scaffolder` `crates/launcher-common` at `154b9b61`. The
+header, the import path and added one-line `///` docstrings differ; the code
+does not. Until launch-scaffolder replaces its
+copy with a dependency on this crate, there are two copies. Each is checked
+against the same vendored corpus (`tests/fixtures/deed/MANIFEST.sha256`), so if
+one drifts, the manifest test catches it.
+
+This crate is its own Cargo root. The `rs/` directory around it holds the
+legacy `a2ml` package, which this crate does not join or depend on.
+
+== Tests
+
+[source,sh]
+----
+cargo test     # syntax corpus, hub conformance/, (updates …) rules
+----
+
+`tests/hub_conformance.rs` also checks this hub's `conformance/*.deed` files:
+the 4 valid ones must parse and the 5 invalid ones must be rejected. The
+`(updates …)` fixture lives in `tests/fixtures/`, not `conformance/`, because
+`conformance/run-deed-tests.sh` asserts exact file counts.
+
+CI: `.github/workflows/deed-read.yml`.

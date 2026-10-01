@@ -1,0 +1,41 @@
+# SPDX-License-Identifier: MPL-2.0
+name: deed-read
+
+# Builds and tests rs/deed-read, the Rust reader for .deed files and the
+# (updates …) vocabulary.
+#
+# Deliberately NO `paths:` filter: a path-filtered workflow never reports on
+# PRs outside its paths, so its check could never be made required without
+# deadlocking those PRs. The build takes seconds.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: rs/deed-read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Toolchain
+        run: rustc --version && cargo --version
+      - name: Test
+        run: cargo test --locked
+      - name: Clippy
+        run: cargo clippy --locked --all-targets -- -D warnings
+      - name: Docs
+        env:
+          RUSTDOCFLAGS: -D warnings
+        run: cargo doc --locked --no-deps

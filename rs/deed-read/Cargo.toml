@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: MPL-2.0
+
+[package]
+name = "deed-read"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+authors = ["Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>"]
+license = "MPL-2.0"
+description = "Reader for the estate DEED (.deed) format and its vocabularies"
+repository = "https://github.com/hyperpolymath/deed-ecosystem/tree/main/rs/deed-read"
+readme = "README.adoc"
+publish = false
+
+# An independent root. `rs/` is the legacy `a2ml` package, not a workspace;
+# this crate does not join or depend on it.
+[workspace]
+
+[dependencies]
+anyhow = "1"
+
+[dev-dependencies]
+sha2 = "0.10"
+hex = "0.4"
