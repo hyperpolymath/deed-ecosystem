@@ -3,7 +3,6 @@
 zig = "latest"
 rust = "latest"
 bun = "latest"
-denojs = "latest"
 
 # Package managers
 pnpm = "latest"
